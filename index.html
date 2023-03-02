@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="https://raw.githubusercontent.com/gufernandess/TimerTest/main/images/logo.png">
+  <link rel="stylesheet" href="components.css">
+  <link rel="stylesheet" href="elements.css">
+  <link rel="stylesheet" href="generic.css">
+  <link rel="stylesheet" href="global.css">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="responsive.css">
+
+  <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+
+  <script type="text/javascript" src="insertTime.js" defer></script>
+  <script type="text/javascript" src="showTable.js" defer></script>
+  <script type="text/javascript" src="switchButtons.js" defer></script>
+  <script type="text/javascript" src="convertTime.js" defer></script>
+  <script type="text/javascript" src="counting.js" defer></script>
+  <script type="text/javascript" src="checkOutput.js" defer></script>
+
+  <title>cube timer</title>
+</head>
+<body>
+  <main>
+   <section class="box">
+    <ion-icon class="back" name="arrow-round-back"></ion-icon>
+    <h3>solves</h3>
+    <ul>
+     <li></li>
+     <li></li>
+     <li></li>
+     <li></li>
+     <li></li>
+    </ul>
+    <p>best time</p>
+    <input type="reset" value="" disabled>
+    <p>worst time</p>
+    <input type="reset" value="" disabled>
+    <p>MDS</p>
+    <input type="reset" value="" disabled>
+    <p>overall average</p>
+    <input type="reset" value="" disabled >
+    <br>
+    <a href="https://github.com/gonzalote99"><ion-icon class="github" name="logo-github"></ion-icon></a> 
+    <p id="subtitle">make for me</p>
+   </section>
+   <section class="cronometer">
+  <p class="timer" id="timer">
+    <span class="minute">00</span>:<span class="second">00</span>:<span class="millisecond">00</span> 
+  </p>
+<button><ion-icon class="button-icon" name="time"></ion-icon>start</button>
+<ion-icon class="folder" name="folder-open"></ion-icon>
+   </section>
+
+
+  </main>
+  
+</body>
+</html>
